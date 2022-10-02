@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>FED-test</title>
+</head>
+
+<body>
+
+    <form>
+        <h2>Chuck Norris joke generator</h2>
+        <label for="category">Choose category:</label>
+        <select name="categories" id="categories">
+            <option value="animal">Animal</option>
+            <option value="career">Career</option>
+            <option value="celebrity">Celebrity</option>
+            <option value="dev">Dev</option>
+            <option value="explicit">Explicit</option>
+            <option value="fashion">Fashion</option>
+            <option value="food">Food</option>
+            <option value="history">History</option>
+            <option value="money">Money</option>
+            <option value="movie">Movie</option>
+            <option value="music">Music</option>
+            <option value="political">Politicial</option>
+            <option value="religion">Religion</option>
+            <option value="science">Science</option>
+            <option value="sport">Sport</option>
+            <option value="travel">Travel</option>
+        </select>
+        <input type="submit" name="submit" class="show" value="Hey, show me a joke 💥">
+    </form>
+    <div class="modal">
+        <div class="modal-box">
+            <span class="close-button">🔙</span>
+            <!-- Random joke from chosen category is being displayed here -->
+            <h1></h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
