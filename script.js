@@ -8,7 +8,7 @@ const categories = document.getElementById("categories");
 function showModal() {
 
     const url = `https://api.chucknorris.io/jokes/random?category=${categories.value}`;
-    const randomJoke = document.querySelector('h1');
+    const randomJoke = document.querySelector('p');
 
     fetch(url).then(
         (response) => {
