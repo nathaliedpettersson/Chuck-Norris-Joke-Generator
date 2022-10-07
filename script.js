@@ -28,8 +28,17 @@ function showModal() {
 
 /* Event listeners for triggering and closing joke */
 closeBtn.addEventListener("click", showModal);
+window.addEventListener("click", windowOnClick);
 
 show.addEventListener("click", (e) => {
     e.preventDefault();
     showModal();
 })
+
+function windowOnClick (event)  {
+if (event.target === modal) {
+    showModal();
+    console.log('This function is triggered when user clicks outside of modal.')
+}
+}
+
