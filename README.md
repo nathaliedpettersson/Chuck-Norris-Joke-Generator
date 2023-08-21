@@ -1,4 +1,4 @@
-# FED-test 
+# Frontend Developer test for a company
 
 
 #### Made with HTML, CSS and JavaScript :white_check_mark:
